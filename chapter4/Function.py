@@ -1,4 +1,4 @@
-#Study Function
+#Function.py
 
 # 입력값이 없는 함수
 def say():
@@ -25,14 +25,14 @@ print(result)
 
 # 입력값이 다수일 때
 
-#def add_many(*args):
-#	result = 0
-#	for i in args:
-#		result += i
-#	return result
+def add_many(*args):
+	result = 0
+	for i in args:
+		result += i
+	return result
 
-#result = add_many(1,2,3,4,5,6,7,8,9,10)
-#print(result)
+result = add_many(1,2,3,4,5,6,7,8,9,10)
+print(result)
 
 def add_mul(choice, *args):
 	if choice == "add":
